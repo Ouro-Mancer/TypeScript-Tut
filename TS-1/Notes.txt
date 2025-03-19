@@ -1,0 +1,77 @@
+Step - 1 ---> Types of Languages
+
+    Strongly typed Languages: Basically In strongly typed languages, there are two stages in execution of code, and we can also say that these are compiled type languages .
+
+    --------     compile      --------
+     a.cpp    ------------->    a.out   ------------->  ./out
+    --------     compile      --------      Run-time
+                time-error                   error
+
+    If you are doing some error or weird mistakes like converting integer to string , compiler will check it and if there are any mistakes , it will not compile and give you an error i.e "compile time error" and then you actually run the file and the errors find at run time are "Run-Time Errors". Compiler does not run your code , it just look at your code and checks if your code does follow the rules of that particular language.
+
+        1. Examples: C++ , Rust , Java , C
+        2. Benefits:-
+            -> Lesser runtime Errors
+            -> Stricter CodeBase
+            -> Easy to catch errors at compile time
+
+
+    Loosely Typed Language:  Basically In loosely typed languages, there are only one stage in execution of code, and we can also say that these are Non-compiled (interpreted ,JIT) type languages .
+
+    It doesn't have a separate compile section to look out in your code. It does that in a single step , it compiles and run your code and so on...and all the errors are Run-time errors.
+
+    --------         Run-time      --------
+      a.js       ------------->     a.out   
+    --------                       --------  
+
+
+    1. Examples: Python , php , JavaScript 
+        2. Benefits:-
+            -> Easy to write code
+            -> Low learning curve
+            -> Fast to write 
+
+
+--> Type-script is built on the top of JS to introduce type safety. Any JS code can be a TS code but not every Type-script code is a JS code because in TS we introduce extra syntax for Type safety.
+
+--> TS doesn't run on the browser , to run TS code we first have to cnvert it into a valid JS code and then we have to run that js file.
+
+--> TS compiler converts TS code into JS code as long as the rules of the TS compiler is being followed same as strongly typed languages.
+
+--> When TS is compiled down to JS , you get free type checking , if there is an eror , the conversion to JS fails. 
+
+
+1.  a : number = 1;   ===>  initialized as number type now you can't assign any other value in this like string, float or etc. because of number type assigned to this
+
+
+2. This is similar to writing ===>     int a = 12;
+
+
+3. Commands for TS file: 
+
+    --> npm init -y ==> Initialising node package
+    --> npm install -g typescript OR npm i typescript ==> Installing typescript globally or locally
+    --> npx tsc --init ==> Creating ts.config.json file
+    --> npx tsc -b ==> Converting index.ts to index.js
+
+
+4. If needed to assign two types to a variable:
+
+    let x: number | string = 2
+    x="Mayank" 
+
+
+5. There is an "any" type in typescript in which we can assign any type to a particular variable
+
+    let z:any = 1
+    z = "Mayank"
+    z = true
+    
+
+6. Need to know about some things in tsconfig.json
+
+    --> target
+    --> rootDir
+    --> outDir
+    --> noimplicitAny
+    --> removecomments
