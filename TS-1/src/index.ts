@@ -3,27 +3,35 @@
     console.log(a);
 */
 
-// greet("Mayank")
 
-// function greet (firstname:string){
+/*
+    greet("Mayank")
 
-//     console.log("Hello"+ firstname)
+    function greet(firstname: string) 
+    {   console.log("Hello" + firstname)  }       
 
-// }
+*/
 
-// let z:any = 1
 
-// z = "Mayank"
-// z = true
+/*
+    let z:any = 1
 
-// console.log(z);
+    z = "Mayank"
+    z = true
 
-// function Sum(a: number, b: number): number {
-//     return a + b;
-// }
+    console.log(z);
+*/
 
-// let ans = Sum(3, 4)
-// console.log(ans);
+
+/*
+    function Sum(a: number, b: number): number {
+        return a + b;
+    }
+
+    let ans = Sum(3, 4)
+    console.log(ans);
+*/
+
 
 
 /*
@@ -35,6 +43,8 @@
         console.log("Hello World");
     })
 */
+
+
 
 /*
 function delayedCall(fxn: () => number) {
@@ -48,18 +58,22 @@ delayedCall(() => {
 
 */
 
-let user = {
-    name: "Mayank",
-    age: 21,
-}
 
-function greet(user: {
-    name: string,
-    age: number,
-}) {
+/*
+        let user = {
+            name: "Mayank",
+            age: 21,
+        }
 
-    console.log("Hello " + user.age);
-    
-}
+        function greet(user: {
+            name: string,
+            age: number,
+        }) {
 
-greet(user)
+            console.log("Hello " + user.age);
+
+        }
+
+        greet(user)
+
+*/        
