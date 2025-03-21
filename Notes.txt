@@ -239,3 +239,30 @@ Examples: ====>>
         name: "Mayank",
         age: 21,
     }
+
+
+9. Advanced APIS:
+
+    a) PICK  ==> it lets you select a set of properties or values from an existing type or interface.
+
+        Example ===>
+            interface User {
+            id: number,
+            name: string,
+            age: number,
+            email: string,
+            password: string,
+        }
+
+        type UpdatedUser = Pick<User, "name" | "password" | "age"> ---> "denotes which value we need to update so rather than making another interface we created a type and using pick api we picked those properties only which we nee dto chnage from the existing interface or centralised interface or data"
+
+        function updateUser(user: UpdatedUser) {
+            return user.name;
+        }
+
+
+    b)PARTIAL  ==>
+    c)READONLY ==>
+    d)RECORDS/MAP ==>
+    e)EXCLUDE ==>
+    f)TYPE INTERFERENCE IN ZOD ==>
