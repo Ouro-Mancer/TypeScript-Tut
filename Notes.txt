@@ -34,7 +34,7 @@ Step - 1 ---> Types of Languages
 
 --> Type-script is built on the top of JS to introduce type safety. Any JS code can be a TS code but not every Type-script code is a JS code because in TS we introduce extra syntax for Type safety.
 
---> TS doesn't run on the browser , to run TS code we first have to cnvert it into a valid JS code and then we have to run that js file.
+--> TS doesn't run on the browser , to run TS code we first have to convert it into a valid JS code and then we have to run that js file.
 
 --> TS compiler converts TS code into JS code as long as the rules of the TS compiler is being followed same as strongly typed languages.
 
@@ -107,7 +107,7 @@ Examples: ====>>
         }
     }
 
-    --> Interfaces are used to define custom types. In above example when the objects gets complex , you have to check or correct the code in the function itself so , to rather than redeclaring or reassignig it in function , we creates an interface which will help us to define the type for the above object.
+    --> Interfaces are used to define custom types. In above example when the objects gets complex , you have to check or correct the code in the function itself so , rather than redeclaring or re-assignig it in function , we creates an interface which will help us to define the type for the above object.
     
     Example ===>  
 
