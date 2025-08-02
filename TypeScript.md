@@ -92,7 +92,7 @@ Examples: ====>>
 
     function isLegal(user: {
         name: string,
-        age: number,
+        age: number, 
         address: {
             street: string,
             pincode: number
